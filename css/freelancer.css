@@ -6,6 +6,7 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+    background-color: #F2F1EF;
 }
 p {
   font-size: 20px;
@@ -18,7 +19,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #c0392b;
+  color: #D91E18;
   outline: none;
 }
 h1,
@@ -50,26 +51,26 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
+  border-color: #F2F1EF;
 }
 hr.star-light:after {
   background-color: #333;
-  color: white;
+  color: #F2F1EF;
 }
 hr.star-primary {
-  border-color: #c0392b;
+  border-color: #D91E18;
 }
 hr.star-primary:after {
-  background-color: white;
-  color: #2C3E50;
+  background-color: #F2F1EF;
+  color: #333;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #c0392b;
-  color: white;
+  background: #D91E18;
+  color: #F2F1EF;
 }
 header .container {
   padding-top: 100px;
@@ -113,40 +114,40 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: white;
+  color: #F2F1EF;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: #F2F1EF;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: white;
+  color: #F2F1EF;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #c0392b;
+  color: #D91E18;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: white;
+  color: #F2F1EF;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #c0392b;
+  color: #F2F1EF;
+  background: #D91E18;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: #c0392b;
+  color: #F2F1EF;
+  background: #D91E18;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
+  color: #F2F1EF;
   text-transform: uppercase;
   margin:0 20px 0 0;
   padding: 0 ;
@@ -156,7 +157,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
   background-color: #333;
-  color: #c0392b;
+  color: #D91E18;
   border-color: #333;
 }
 @media (min-width: 768px) {
@@ -187,8 +188,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #c0392b;
-  color: white;
+  background: #D91E18;
+  color: #F2F1EF;
 }
 @media (max-width: 767px) {
   section {
@@ -209,7 +210,7 @@ section.success {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(192, 57, 43,0.9);
+  background: rgba(217, 30, 24,0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -229,7 +230,7 @@ section.success {
   text-align: center;
   top: 50%;
   margin-top: -12px;
-  color: white;
+  color: #F2F1EF;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
@@ -296,7 +297,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #ccc;
 }
 footer {
-  color: white;
+  color: #F2F1EF;
 }
 footer h3 {
   margin-bottom: 30px;
@@ -313,9 +314,9 @@ footer .footer-below {
   background-color: #2d2c2c;
 }
 .btn-outline {
-  color: white;
+  color: #F2F1EF;
   font-size: 20px;
-  border: solid 2px white;
+  border: solid 2px #F2F1EF;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -324,14 +325,14 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #c0392b;
-  background: white;
-  border: solid 2px white;
+  color: #D91E18;
+  background: #F2F1EF;
+  border: solid 2px #F2F1EF;
 }
 .btn-primary {
-  color: white;
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  color: #F2F1EF;
+  background-color: #333;
+  border-color: #333;
   font-weight: 700;
 }
 .btn-primary:hover,
@@ -339,9 +340,9 @@ footer .footer-below {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: white;
-  background-color: #1a242f;
-  border-color: #161f29;
+  color: #F2F1EF;
+  background-color: #333;
+  border-color: #2c2d2d;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -367,11 +368,11 @@ fieldset[disabled] .btn-primary.active {
   border-color: #2C3E50;
 }
 .btn-primary .badge {
-  color: #2C3E50;
-  background-color: white;
+  color: #333;
+  background-color: #F2F1EF;
 }
 .btn-success {
-  color: white;
+  color: #F2F1EF;
   background-color: #333;
   border-color: #333;
   font-weight: 700;
@@ -381,7 +382,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-  color: white;
+  color: #F2F1EF;
   background-color: #00B16A;
   border-color: #00B16A;
 }
@@ -409,14 +410,14 @@ fieldset[disabled] .btn-success.active {
     border-color: #333;
 }
 .btn-success .badge {
-  color: #c0392b;
+  color: #D91E18;
   background-color: #333;
 }
 .btn-social {
   display: inline-block;
   height: 50px;
   width: 50px;
-  border: 2px solid white;
+  border: 2px solid #F2F1EF;
   border-radius: 100%;
   text-align: center;
   font-size: 20px;
@@ -446,6 +447,7 @@ fieldset[disabled] .btn-success.active {
   outline: none;
 }
 .portfolio-modal .modal-content {
+  background-color: #F2F1EF;
   border-radius: 0;
   background-clip: border-box;
   -webkit-box-shadow: none;
@@ -481,7 +483,7 @@ fieldset[disabled] .btn-success.active {
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #2C3E50;
+  background-color: #333;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -492,7 +494,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #2C3E50;
+  background-color: #333;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
