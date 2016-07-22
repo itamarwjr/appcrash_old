@@ -20,7 +20,9 @@ $to = 'contato@appcrash.com.br'; // Add your email address inbetween the '' repl
 $email_subject = "Website Contact Form:  $name";
 $email_body = "Novo contato do site appcrash.com.br.\n\n"."A mensagem é:\n\nNome: $name\n\nE-mail: $email_address\n\nTelefone: $phone\n\nMensagem:\n$message";
 $headers = "From: noreply@appcrash.com.br\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
-$headers .= "Reply-To: $email_address";	
+$headers .= "Reply-To: $email_address\n";
+$headers .= "Content-type: text/html; charset=UTF-8";
+
 mail($to,$email_subject,$email_body,$headers);
 return true;			
 ?>

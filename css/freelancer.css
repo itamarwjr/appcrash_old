@@ -32,6 +32,9 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+ul{
+    list-style-type: none;
+}
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -291,7 +294,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #333;
+  color: #D91E18;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #ccc;
